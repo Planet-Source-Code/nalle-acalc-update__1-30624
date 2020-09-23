@@ -1,0 +1,119 @@
+[Root]
+Most Recent Package=ACalcSetup
+
+
+[Package|ACalcSetup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\Package
+
+[Package|ACalcSetup|Configure DAO ISAMs]
+Applicable=Yes
+Text=No
+Excel=No
+Lotus=No
+Xbase=No
+Paradox=No
+Exchange=No
+Jet 2.x=No
+
+[Package|ACalcSetup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ACalcSetup|Files Found]
+
+[Package|ACalcSetup|Files Released]
+
+[Package|ACalcSetup|Missing Dependency Information]
+
+[Package|ACalcSetup|Out-of-Date Dependency Information]
+
+[Package|ACalcSetup|Files Added]
+C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\sound.wav=
+
+[Package|ACalcSetup|Files Removed]
+c:\windows\system\expsrv.dll=
+c:\program\vanliga filer\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+c:\program\microsoft visual studio\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|ACalcSetup|Files In Project]
+C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\Calculator.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program\Vanliga filer\Microsoft Shared\DAO\dao350.dll=No
+C:\WINDOWS\SYSTEM\MSJET35.DLL=No
+C:\WINDOWS\SYSTEM\msjter35.dll=No
+C:\WINDOWS\SYSTEM\msjint35.dll=No
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=No
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=No
+C:\WINDOWS\SYSTEM\msrd2x35.dll=No
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=No
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=No
+C:\WINDOWS\SYSTEM\VB5DB.DLL=No
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\sound.wav=Yes
+
+[Package|ACalcSetup|Configure Registry Files]
+Applicable=No
+
+[Package|ACalcSetup|Configure Remote Servers]
+Applicable=No
+
+[Package|ACalcSetup|Install Locations]
+C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\Calculator.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\sound.wav=$(AppPath)
+
+[Package|ACalcSetup|Configure Shared Files]
+Applicable=Yes
+C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\Calculator.exe=No
+C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\sound.wav=No
+
+[Package|ACalcSetup|Distribution]
+Type=single
+Size=
+Title=ACalc
+
+[Package|ACalcSetup|IconGroups]
+Group0=ACalc
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|ACalcSetup|ACalc]
+Icon1=Calculator.exe
+Title1=ACalc
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|ACalcSetup|Package]
+PackageFolder=C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\Package
+ProjectFolder=C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator
+ServerSideCab=
+File1=C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\Package\setup.exe
+File2=C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\Package\Setup.Lst
+File3=C:\Program\Microsoft Visual Studio\VB98\MyProgram\ACalculator\Package\Calculator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
